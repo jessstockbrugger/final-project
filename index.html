@@ -5,27 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project - Jessica Stockbrugger</title>
+   
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script rel="stylesheet" src="https://fontawesome.com/icons/search?style=solid" crossorgins="anonymous">
+
+    </script>
 </head> 
-<body>
-    
+<body>  
     <header>
         <nav>
-            <div class="conatiner">
-                <img src="images/logo.png" alt="Three Star Media">
+            <div class="container">
+                <div class="logo-image">
+                    <img src="images/logo.png" alt="Image of logo with stars">
+                </div>
+                
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li class="home"><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
+                </ul>  <!-- ============ {nav ul li a} ============= -->
 
                 <form>
                     <input  type="text" id="search" name="search">    
                     <button><i class="fas fa-search"></i></button>    
                 </form>
             </div>
-        </nav>
+        </nav> 
             
         <!-- ============ INTRO ============= -->
         <div class="intro">
@@ -43,6 +53,7 @@
     </header>
 
     <main>
+        <!-- ============ ABOUT SECTION ============= -->
         <section class="section-about">
             <div class="container">
                 <div class="about-us">
@@ -59,12 +70,13 @@
             <!-- one box with heading h2 and 2 paragraphs  -->
         </section> <!-- end section-about -->
 
+        <!-- ============ OUR SERVICES SECTION ============= -->
         <section class="services">
             <div class="container">
                 <h2>Our Services</h2>
 
                 <div class="grid-container">
-                <!-- my 5 divs with img + h3 + paragrsph + button  -->
+                <!-- target services then grid-container-->
                     <div class="digital-transformation">
                         <img src="images/digital.jpg" alt="image of a person on their phone and on a laptop">
                         <h3>Digital Transormation</h3>
@@ -98,29 +110,27 @@
                         <h3>Print</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <button>Print Plans<span class="icon">&#9654;</span></button>
-                    </div>
-
+                    </div><!-- end print container--> 
                 </div> <!-- end grid-container-->       
-          
-
-            </div>
+            </div><!-- end container--> 
         </section> <!-- end services -->
 
+        <!-- ============ OUR VISION SECTION ============= -->
         <section class="our-vision">
             <div class="container">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <button>Learn More<span class="icon">&#9654;</span></button>
-                <img src="images/vision.jpg" alt="Image of origami paper boats">
-            </div>
+                <img src="images/vision.jpg" alt="Image of origami paper boats"><!-- this button has a border and no others do-->
+            </div><!-- end container-->
         </section> <!-- end our-vision-->
 
+          <!-- ============ OUR TEAM SECTION ============= -->
         <section class="our-team">
-            <div class="container">                
+            <div class="container"> 
+                           
                 <div class="grid-container"> </div>
-                    <div>
-                        <h2>Our Team</h2>
-                    </div>
+                    <h2>Our Team</h2>  
                     <div class="image-john">
                         <img src="images/john.jpg" alt="image of John Doe"> 
                     </div>  <!-- end box 1 with John Doe image--> 
@@ -129,19 +139,20 @@
                         <h5>CEO and Co-Owner</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>  <!-- end box 2 with John Doe text-->
+                    <div class="image-two">
+                        <img src="images/bob.jpg" alt="image of Bob Rite">
+                    </div>  <!-- end box of Bob Rite image -->  
                     <div class="text-bob" >
                         <h3>Bob Rite</h3>
                         <h5>CFO and Co-Owner</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>  <!-- end box 3 with Bob Rite text-->
-                    <div class="image-two">
-                        <img src="images/bob.jpg" alt="image of Bob Rite">
-                    </div>  <!-- end box of Bob Rite image -->                   
+                                  
             </div> <!-- I can position all 4 divs in CSS using nth-child -->
         </section> <!-- end our-team-->
 
         <section class="contact">
-            <div class="container"> 
+            <div class="container"> <!--grid-container-->
                 <div class= "contact">
                     <h2>Contact Us</h2>
                 </div>
@@ -156,29 +167,35 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message"></textarea>
                     </form>
-                </div>
-                 <div class="location">
-                     <h3>Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6668.709169895553!2d-75.76273094627982!3d45.351910213121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617302399385!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
-                </div>
+                </div><!--end contact section-->
+                 
                 <div class="hours">
                     <h3>Hours of Operation</h3>
                     <table>
-                        <tr>
-                            <th>Days</th>
-                            <th>Hours</th>
-                        </tr>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9am - 6pm</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        </table>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9am - 6pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div><!--end form table section-->
+                <div class="location">
+                     <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6668.709169895553!2d-75.76273094627982!3d45.351910213121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617302399385!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
+                </div><!-- end location -->
+            </div><!-- end grid-container -->
         </section>
     </main>
 
