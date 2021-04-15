@@ -85,16 +85,26 @@ header nav ul li a {
     display: block;
     color: #c78b07;
     font-size: 18px;
-    line-height: 61px;
+    line-height: 21px;
+    padding-top: 21px;
+    padding-bottom: 20px;
     text-align: center;
     text-decoration: none;
 }
+
+header nav ul li.nav-home a{
+    background: #c78b07;
+    color: #222;
+}  
 
 header .logo-image{
     background: #c78b07;
     padding-top: 18px;
     padding-bottom: 18px;
 }
+
+
+
 
 /*************** MEDIA QUERY Anything after 760px will get this code  ***************/
 
@@ -120,6 +130,13 @@ header .logo-image{
     header nav{
         padding: 0;
     }
+
+    header nav ul li.nav-home a{
+        background: #c78b07;
+        color: #222;
+        width: 148px;
+        text-align: center;
+    }  
 
     header .logo-image{
         background: none;
