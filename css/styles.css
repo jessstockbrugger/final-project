@@ -54,13 +54,15 @@ table {
 body{
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;   
+    font-size: 14px;
+   
 }
 
 h1{
     font-size: 71px;
     line-height: 98px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 h2{
@@ -73,10 +75,17 @@ h3{
     font-size: 32px;
     font-weight: bold;
 }
+
+
 p{
     font-size: 100%;
     line-height: 1.5;
 }
+
+button{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /******** HEADER ********/
 
@@ -118,11 +127,58 @@ header div.logo-image{
 #search{
     height: 40px;
     width: 636px;
-    border: #797979 1px;
+    border: 6px #797979 ;
     
 }
 
-/******** INTRO ********/
+header form{
+    display: flex;
+}
+
+input{
+    flex-grow: 1;
+}
+
+header form button{
+    font-size: 18px;
+    flex-grow: 2;
+    background-color: #222;
+    color:#c78b07;
+    border-color: #c78b07;
+}
+
+/******** INTRO - WELCOME TO THREE STAR MEDIA ********/
+
+
+header .intro {
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+
+.intro .container{
+    padding: 50px 56px 10px 16px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    line-height: 0;
+    position: absolute;
+    margin-top: 68px;
+    margin-bottom: 200px;
+}
+
+
+header .intro button{
+    background-color: #c78b07;
+    font-size: 21px;
+    padding: 30px 45px;
+    border: none;
+}
+
+header button .icon{
+    font-size: 21px;
+    padding-left: 14px;
+}
 
 
 
@@ -134,51 +190,214 @@ header div.logo-image{
 
 .section-about{
     background-color: #ffe6ac;
+    padding: 16px;
+    margin-bottom: 38px;
+    
 }
+
+.section-about  img{
+    max-width: 100%; 
+  
+}
+
+.about-text{
+    padding-top: 41px;
+    padding-bottom: 16px;
+}
+
+.about-text h2{
+    padding-bottom: 30px;
+}
+
 
 
 
 /******** OUR SERVICES SECTION ********/
 
+.services{
+    padding: 16px;
+}
+
+.services h2{
+    padding-bottom: 24px;
+}
+.services h3{
+    padding-bottom: 30px;
+}
+.grid-container img{
+    width: 100%;
+}
+
+.grid-container-text{
+    background-color: #ffe6ac;
+    padding: 42px 16px 16px 16px;
+    
+   
+}
+
+main .grid-container button{
+    background-color: #222;
+    color: white;
+    font-size: 21px;
+    padding: 33px 36px;
+    border: none;
+    margin-top: 19px;
+}
+
+main button .icon{
+    font-size: 21px;
+    padding-left: 14px;
+}
+
+
+
+
+/*
+
+.services h3, .services p, .services button{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+
+
+
+
+
+.grid-container .digital-image img{
+    margin: 1em 0 0 0;
+  
+    background: pink;
+}
+
+
+
+
+
 .digital-transformation{
-    background-color: #ffe6ac;
+    padding: 16px;
 }
 
-.services .container .grid-container .digital-transformation img{
-    width: 678px;
-}
 
-.marketing{
-    background-color: #ffe6ac;
-}
+
 
 .services .container .grid-container .marketing img{
-    width: 678px;
+    max-width: 100%;
 }
 
-.video-production{
-    background-color: #ffe6ac;
-}
 
 .services .container .grid-container .video-production img{
     width: 678px;
 }
 
-.web-development{
-    background-color: #ffe6ac;
-}
 
 .services .container .grid-container .web-development img{
     width: 678px;
 }
 
-.print{
-    background-color: #ffe6ac;
-}
 
 .services .container .grid-container .print img{
     width: 678px;
 }
+
+
+
+
+*/
+
+
+
+/***************** OUR VISION  *****************/
+
+.our-vision {
+    padding: 16px;
+    color: white;
+    background-image: url('../images/vision.jpg');
+    background-size: cover;
+}
+
+.our-vision h3{
+    padding-top: 42px;
+    padding-bottom: 30px;
+}
+
+main .our-vision button{
+    background-color:#182b43;
+    color: white;
+    font-size: 21px;
+    padding: 33px 36px;
+    border-color: #c78b07 ;
+    margin-top: 19px;
+}
+
+main button .icon{
+    font-size: 25px;
+    padding-left: 14px;
+}
+
+
+
+
+/***************** OUR TEAM SECTION  *****************/
+
+.our-team{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 51px;
+   
+}
+
+.our-team img{
+    width: 100%;
+    padding-top: 24px;
+}
+
+.text-team{
+    background-color: #ffe6ac;
+    padding: 16px;
+}
+
+.text-team h5{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 6px;
+   
+   
+}
+
+
+
+
+
+
+
+
+/***************** CONTACT SECTION  *****************/
+
+.contact{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.contact h2{
+    padding-top: 75px;
+    padding-bottom: 35px;
+}
+
+.contact h3{
+    padding-bottom: 20px;
+}
+
+input .fullname{
+    width: 100%;
+}
+
+
+
+
+
+
 
 /*************** MEDIA QUERY Anything after 760px will get this code  ***************/
 
