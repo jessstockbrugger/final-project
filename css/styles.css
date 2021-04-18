@@ -49,7 +49,7 @@ table {
 
 
 
-/******************** MY STYLES ********************/
+/************************************************ MY STYLES ************************************************/
 
 body{
     background: #ffffff;
@@ -87,7 +87,7 @@ button{
 }
 
 
-/******** HEADER ********/
+/************************************ HEADER ************************************/
 
 header nav {
     background:#222;
@@ -147,7 +147,7 @@ header form button{
     border-color: #c78b07;
 }
 
-/******** INTRO - WELCOME TO THREE STAR MEDIA ********/
+/******************************* INTRO - WELCOME TO THREE STAR MEDIA *******************************/
 
 
 header .intro {
@@ -186,7 +186,7 @@ header button .icon{
 
 
 
-/******** ABOUT SECTION ********/
+/************************************ ABOUT SECTION ************************************/
 
 .section-about{
     background-color: #ffe6ac;
@@ -212,7 +212,7 @@ header button .icon{
 
 
 
-/******** OUR SERVICES SECTION ********/
+/************************************ OUR SERVICES SECTION ************************************/
 
 .services{
     padding: 16px;
@@ -252,63 +252,9 @@ main button .icon{
 
 
 
-/*
-
-.services h3, .services p, .services button{
-    margin-left: 16px;
-    margin-right: 16px;
-}
 
 
-
-
-
-
-
-.grid-container .digital-image img{
-    margin: 1em 0 0 0;
-  
-    background: pink;
-}
-
-
-
-
-
-.digital-transformation{
-    padding: 16px;
-}
-
-
-
-
-.services .container .grid-container .marketing img{
-    max-width: 100%;
-}
-
-
-.services .container .grid-container .video-production img{
-    width: 678px;
-}
-
-
-.services .container .grid-container .web-development img{
-    width: 678px;
-}
-
-
-.services .container .grid-container .print img{
-    width: 678px;
-}
-
-
-
-
-*/
-
-
-
-/***************** OUR VISION  *****************/
+/******************************* OUR VISION  *******************************/
 
 .our-vision {
     padding: 16px;
@@ -339,7 +285,7 @@ main button .icon{
 
 
 
-/***************** OUR TEAM SECTION  *****************/
+/******************************* OUR TEAM SECTION  *******************************/
 
 .our-team{
     padding-left: 16px;
@@ -373,7 +319,7 @@ main button .icon{
 
 
 
-/***************** CONTACT SECTION  *****************/
+/**************************************** CONTACT SECTION  ****************************************/
 
 .contact{
     padding-left: 16px;
@@ -422,7 +368,7 @@ main button .icon{
 
 
 
-/***************** HOURS OF OPERATION SECTION  *****************/
+/******************************* HOURS OF OPERATION SECTION  *******************************/
 
 table, th, td {
     border: 1px solid black;
@@ -449,7 +395,7 @@ td{
 
 
 
-/***************** LOCATION SECTION  *****************/
+/******************************* LOCATION SECTION  *******************************/
 
 
 iframe{ 
@@ -459,7 +405,7 @@ iframe{
 
 
 
-/***************** FOOTER SECTION  *****************/
+/******************************* FOOTER SECTION  *******************************/
 
 
 footer{
@@ -483,7 +429,8 @@ footer p a{
 
 
 
-/*************** MEDIA QUERY Anything after 760px will get this code  ***************/
+/*********************** MEDIA QUERY Anything after 760px will get this code  ***********************/
+
 
 @media screen and (min-width: 760px) {
 
@@ -530,11 +477,115 @@ footer p a{
 
 }
 
+
+/*********************** MEDIA QUERY Anything after 1200px will get this code  ***********************/
+
+
 @media screen and (min-width: 1200px){
 
     .container{
         width: 1200px;
+        margin: 0 auto;
     }
+
+    /************************************ HEADER ************************************/
+   
+    header nav .container{
+      display: flex;
+    
+        
+    }
+
+    header div.logo-image{
+        background: none;
+    }
+
+    header nav ul li{
+        width: 148px;
+        background: pink;
+      
+    }
+
+
+
+    #search{
+        height: 45px;
+        width: 220px;
+        border: 6px #797979 ;
+        
+    }
+
+    header form button{
+        font-size: 18px;
+        height: 45px;
+        background-color: #222;
+        color:#c78b07;
+        border-color: #c78b07;
+    }
+
+    header nav .container form{
+        margin: 20px;
+    }
+    /*
+  header nav {
+    background:#222;
+    padding: 14px;
+}
+
+header nav ul li a {
+    display: block;
+    color: #c78b07;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+header nav ul li.nav-home a{
+    display: block;
+    background: #c78b07;
+    color: #222;
+    text-align: center;
+    width: 100%;
+   
+
+}  
+
+header div.logo-image{
+    background: #c78b07;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+}
+
+#search{
+    height: 40px;
+    width: 636px;
+    border: 6px #797979 ;
+    
+}
+
+header form{
+    display: flex;
+}
+
+input{
+    flex-grow: 1;
+}
+
+header form button{
+    font-size: 18px;
+    flex-grow: 2;
+    background-color: #222;
+    color:#c78b07;
+    border-color: #c78b07;
+}
+
+    */
 }
 
 
