@@ -113,7 +113,7 @@ header nav ul li.nav-home a{
     color: #222;
     text-align: center;
     width: 100%;
-   
+    
 
 }  
 
@@ -299,12 +299,17 @@ main button .icon{
     padding-top: 24px;
 }
 
-.text-team{
+.text-john{
     background-color: #ffe6ac;
     padding: 16px;
 }
 
-.text-team h5{
+.text-bob{
+    background-color: #ffe6ac;
+    padding: 16px;
+}
+
+.text-john h5{
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 6px;
@@ -312,6 +317,13 @@ main button .icon{
    
 }
 
+.text-bob h5{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 6px;
+   
+   
+}
 
 
 
@@ -368,7 +380,7 @@ main button .icon{
 
 
 
-/******************************* HOURS OF OPERATION SECTION  *******************************/
+/********* HOURS OF OPERATION SECTION  *********/
 
 table, th, td {
     border: 1px solid black;
@@ -395,7 +407,7 @@ td{
 
 
 
-/******************************* LOCATION SECTION  *******************************/
+/******* LOCATION SECTION  *******/
 
 
 iframe{ 
@@ -405,7 +417,7 @@ iframe{
 
 
 
-/******************************* FOOTER SECTION  *******************************/
+/********* FOOTER SECTION  *********/
 
 
 footer{
@@ -485,7 +497,7 @@ footer p a{
 
     .container{
         width: 1200px;
-        margin: 0 auto;
+        
     }
 
     /************************************ HEADER ************************************/
@@ -498,104 +510,209 @@ footer p a{
 
     header div.logo-image{
         background: none;
+        margin-top: 18px;
+        margin-bottom: 18px;
     }
 
     header nav ul li{
         width: 148px;
-        background: pink;
-      
+         
     }
 
-
+    header nav ul{
+        display: flex;
+        height: fit-content;
+        margin-top: 54px;
+    }
 
     #search{
-        height: 45px;
+        height: 43px;
         width: 220px;
         border: 6px #797979 ;
-        
+        margin-top: 42px;
     }
 
     header form button{
         font-size: 18px;
         height: 45px;
+        width: 40px;
         background-color: #222;
         color:#c78b07;
         border-color: #c78b07;
+        margin-top: 42px;
     }
 
     header nav .container form{
         margin: 20px;
     }
-    /*
-  header nav {
-    background:#222;
-    padding: 14px;
-}
 
-header nav ul li a {
-    display: block;
-    color: #c78b07;
-    font-size: 18px;
-    line-height: 21px;
-    padding-top: 21px;
-    padding-bottom: 20px;
-    
-    text-align: center;
-    text-decoration: none;
-    
-}
 
-header nav ul li.nav-home a{
-    display: block;
-    background: #c78b07;
-    color: #222;
-    text-align: center;
-    width: 100%;
+    /******************************* INTRO - WELCOME TO THREE STAR MEDIA *******************************/
+
+
+    .intro .container {
+        width: 1200px;
+        display: block;
+        margin-left: 120px;
+        
+    }
+
+
+
+    .section-about  img{
+        max-width: 575px; 
+        margin-right: 16px;
+        margin-bottom: 8px;
+    
+    }
+        
+    .about-us{
+        display: flex;
+        
+    }
+
+
+
+
+    /************************************ OUR SERVICES SECTION ************************************/
+
+    main .grid-container button{
+        width: 100%;
+    }
+
+    
+
+    .services .container{
+        width: 1168px;
+        
+    }
+
+   .grid-container{
+       display: flex;
+       flex-wrap: wrap;
+       
+   }
+
+   .digital-transformation{
+       padding-right: 16px;
+       
+   }
+
+   .digital-transformation .grid-container-text{
+       width: 544px;
+       
+   }
+
+   .marketing .grid-container-text{
+       width: 544px;
+       margin-bottom: 16px;
+       
+   }
+
+   .video-production {
+       width: 379px;
+       
+      
+   }
+
+   .web-development {
+       width: 378px;
+       margin-left: 16px;
+       margin-right: 16px;
+   }
    
-
-}  
-
-header div.logo-image{
-    background: #c78b07;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    width: 100%;
-}
-
-#search{
-    height: 40px;
-    width: 636px;
-    border: 6px #797979 ;
+   .print {
+    width: 379px;
     
+   }
+
+
+
+
+    /******************************* OUR VISION SECTION  *******************************/
+
+  
+
+
+
+
+
+
+
+   /******************************* OUR TEAM SECTION  *******************************/
+
+
+
+   .our-team .container{
+       
+       width: 1168px;
+       margin: 0 auto;
+       
+   }
+
+   .team-container{
+       display: grid;
+       grid-template-columns: 584px 584px;
+       grid-template-rows: 390px 389px;
+   }
+
+   .image-two{
+       grid-area: 2 / 2 / 3 / 3 ;
+       
+   }
+
+   .text-john{
+       margin-top: 24px;
+   }
+
+
+   .image-two{
+       margin-top: -24px;
+   }
+
+
+
+
+    /**************************************** CONTACT SECTION  ****************************************/
+
+   .contact .container{
+    display: grid;
+    grid-template-columns: 584px 584px;
+    grid-template-rows: 161px 390px 389px;
+    background: pink;
+    
+   }
+
+   .contact .container .contact{
+    background: orange;
+    grid-area: 1 / 1 / 2 / 3;
+    margin-bottom: -30px;
+    
+   }
+
+   .message{
+       background: purple;
+       grid-area: 2 / 1 / 3 / 2;
+       padding-left: 16px;
+       padding-right: 16px;
+   }
+
+   .location{
+       background: green;
+       grid-area: 2 / 2 / 3 / 2 ;
+       padding-left: 16px;
+       
+   }
+
+   .hours{
+       background: lightblue;
+       grid-area: 3 / 1 / 4 / 3 ;
+
+   }
 }
 
-header form{
-    display: flex;
-}
-
-input{
-    flex-grow: 1;
-}
-
-header form button{
-    font-size: 18px;
-    flex-grow: 2;
-    background-color: #222;
-    color:#c78b07;
-    border-color: #c78b07;
-}
-
-    */
-}
 
 
 
 
 
-
-/*
-
-
-
-
-*/
