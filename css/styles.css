@@ -261,6 +261,7 @@ main button .icon{
     color: white;
     background-image: url('../images/vision.jpg');
     background-size: cover;
+    background-position: center center;
 }
 
 .our-vision h3{
@@ -444,7 +445,7 @@ footer p a{
 /*********************** MEDIA QUERY Anything after 760px will get this code  ***********************/
 
 
-@media screen and (min-width: 761px) {
+@media screen and (min-width: 707px) {
 
     h1{
         font-size: 81px;
