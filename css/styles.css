@@ -441,59 +441,13 @@ footer p a{
 
 
 
-/*********************** MEDIA QUERY Anything after 760px will get this code  ***********************/
-
-
-@media screen and (min-width: 760px) {
-
-    h1{
-        font-size: 81px;
-        line-height: 112px;
-        font-weight: bold;
-    }
-
-    h2{
-        font-size:54px;
-        line-height: 1;
-        font-weight: bold;
-    }
-
-    p{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    header nav{
-        padding: 0;
-    }
-
-    header nav ul li.nav-home a{
-        background: #c78b07;
-        color: #222;
-        width: 148px;
-        text-align: center;
-    }  
-
-    header .logo-image{
-        background: none;
-        padding: 0;
-    }
-
-    .container{
-        width: 760px;
-        margin: 0 auto;
-    }
-
-
-
-
-}
 
 
 /*********************** MEDIA QUERY Anything after 1200px will get this code  ***********************/
 
 
 @media screen and (min-width: 1200px){
+
 
     .container{
         width: 1200px;
@@ -553,7 +507,9 @@ footer p a{
     .intro .container {
         width: 1200px;
         display: block;
+        margin-top: 47px;
         margin-left: 120px;
+        background-color: pink;
         
     }
 
