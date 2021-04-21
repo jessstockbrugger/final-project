@@ -444,7 +444,7 @@ footer p a{
 /*********************** MEDIA QUERY Anything after 760px will get this code  ***********************/
 
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 761px) {
 
     h1{
         font-size: 81px;
