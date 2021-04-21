@@ -682,34 +682,36 @@ footer p a{
     display: grid;
     grid-template-columns: 584px 584px;
     grid-template-rows: 161px 390px 389px;
-    background: pink;
+    
     
    }
 
    .contact .container .contact{
-    background: orange;
+    
     grid-area: 1 / 1 / 2 / 3;
     margin-bottom: -30px;
     
    }
 
    .message{
-       background: purple;
+       
        grid-area: 2 / 1 / 3 / 2;
        padding-left: 16px;
        padding-right: 16px;
    }
 
    .location{
-       background: green;
+      
        grid-area: 2 / 2 / 3 / 2 ;
        padding-left: 16px;
        
    }
 
    .hours{
-       background: lightblue;
+       
        grid-area: 3 / 1 / 4 / 3 ;
+       padding-left: 16px;
+       padding-top: 150px;
 
    }
 }
