@@ -682,12 +682,12 @@ footer p a{
     display: grid;
     grid-template-columns: 584px 584px;
     grid-template-rows: 161px 390px 389px;
-    background: pink;
+   
     
    }
 
    .contact .container .contact{
-    background: orange;
+    
     grid-area: 1 / 1 / 2 / 3;
     margin-bottom: -30px;
     
