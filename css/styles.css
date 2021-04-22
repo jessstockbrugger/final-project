@@ -524,7 +524,9 @@ footer p a{
     /************************************ HEADER ************************************/
    
     header nav .container{
-      display: flex;   
+      display: flex;
+    
+        
     }
 
     header div.logo-image{
@@ -535,6 +537,7 @@ footer p a{
 
     header nav ul li{
         width: 148px;
+         
     }
 
     header nav ul{
@@ -576,7 +579,8 @@ footer p a{
     }
 
     header .intro button{
-        margin-top: 16px; 
+        margin-top: 16px;
+ 
     }
 
   /************************************ ABOUT US SECTION ************************************/
@@ -588,8 +592,11 @@ footer p a{
     }
         
     .about-us{
-        display: flex; 
+        display: flex;
+        
     }
+
+
 
 
     /************************************ OUR SERVICES SECTION ************************************/
