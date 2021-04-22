@@ -140,6 +140,7 @@ header form{
 
 input{
     flex-grow: 1;
+    font-size: 18px;
 }
 
 header form button{
